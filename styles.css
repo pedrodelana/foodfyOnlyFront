@@ -1,0 +1,64 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap" ;
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: white;
+    
+    
+   }
+
+.links{
+    padding: 30px 40px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.links a{
+    
+    padding: 0 20px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+}
+
+.links img{
+    padding-right: 50px;
+}
+/*            APRESENTACAO         */
+.apresentacao{
+    background: #FBDFDB ;
+    width: 940px;
+    height: 366px;
+    margin: 0 50px;
+    border-radius: 30px;
+}
+
+.apresentacao_texto{
+    padding: 84px 500px;
+    padding-left: 20px;
+    text-align: left;
+    text-indent: initial;
+}
+
+.apresentacao_texto h1{
+    font-size: 32px;
+    
+}
+
+.apresentacao_texto h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px;
+    padding-left: 5px;
+}
+
+
+}
