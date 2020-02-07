@@ -48,7 +48,7 @@ body{
       
     text-align: left;
     text-indent: initial;
-    position: fixed;
+    position: absolute;
     
 }
 
@@ -138,5 +138,5 @@ body{
 .principal{
     justify-content: center;
     align-items: center;
-   
+   margin: 0 auto;
 }
