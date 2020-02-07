@@ -134,3 +134,9 @@ body{
     position: absolute;
     font-size: 14px;
 }
+
+.principal{
+    justify-content: center;
+    align-items: center;
+   
+}
