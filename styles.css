@@ -42,23 +42,95 @@ body{
 }
 
 .apresentacao_texto{
-    padding: 84px 500px;
-    padding-left: 20px;
+    
+    padding-left: 60px;
+    padding-top: 130px;
+      
     text-align: left;
     text-indent: initial;
+    position: fixed;
+    
 }
 
 .apresentacao_texto h1{
     font-size: 32px;
+    width: 305px;
+    height: 38px;
+    padding: 0px 0px;
     
 }
 
 .apresentacao_texto h2{
     font-size: 18px;
     font-weight: normal;
-    margin: 20px;
-    padding-left: 5px;
+    margin: 10px 0;
+    width: 316px;
+    height: 84px;
+    color: rgba(0, 0, 0, 0.7);
+    
 }
 
+.apresentacao img{
+    float: right;
+    width: 216px;
+    height: 300px;
+    padding-right: 100px;
+    padding-top: 66px;
+    position: relative;
+}
 
+.maisacessadas{
+    padding: 50px 50px;
+    width: 940px;
+    height: 366px;
+    
+}
+.receitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.receita{
+    width: 300px;
+    height: 186px;
+    position: relative; 
+    
+}
+.receita p{
+    font-size: 18px;
+}
+
+.receita h3{
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.maisacessadas img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.maisacessadas h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+
+.footer{
+    height: 62px;    
+    background: #EEEEEE;
+    margin: 50px 0px;
+    width: 1400px;
+    
+}
+
+.footer p{
+
+
+    padding: 20px 267px;
+       
+    position: absolute;
+    font-size: 14px;
 }
