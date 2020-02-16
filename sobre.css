@@ -1,0 +1,108 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap" ;
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: white;
+    
+    
+}
+
+
+.principal{
+
+   margin: 0 auto;
+   max-width: 940px;
+
+}   
+
+.links{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 256px;
+    padding: 30px 40px;
+}
+
+.links a{
+    
+    padding: 0 20px;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;
+}
+
+.links img{
+    padding-right: 50px;
+}
+/*            APRESENTACAO         */
+.apresentacao{
+    background: #FBDFDB ;
+    position: relative;
+    height: 500px;
+    width: 940px;
+    margin: 0 50px;
+    border-radius: 30px;
+    
+}
+
+.apresentacao_texto{
+
+    padding: 30px;    
+    width: 600px;
+    margin: 0px auto;
+    
+}
+
+.apresentacao_texto h1{
+    font-size: 32px;
+    width: 300px;
+    height: 38px;
+    margin: 0px auto;
+    
+}
+
+.apresentacao_texto h2{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px 0;
+    width: 600px;
+    height: 84px;
+    color: rgba(0, 0, 0, 0.7);
+    text-indent: 5%;
+    text-align: justify;
+    
+}
+
+.apresentacao img{
+    width: 216px;
+    height: 300px;
+    right: 100px;
+    bottom: 0px;
+    position: absolute;
+}
+
+
+
+.footer{
+    height: 62px;    
+    background: #EEEEEE;
+    margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.footer p{
+
+    text-align: center;
+    padding: 20px 267px;       
+    position: relative;
+    font-size: 14px;
+}
